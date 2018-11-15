@@ -13,7 +13,7 @@ or newer versions of Microsoft operating systems.
 `winecalc` is licensed under the GNU Foundation LGPL version 2 license,
 included in this distribution as license.txt.
 
-A binary executable file `winecalc`.exe is included that can be run on
+A binary executable file `winecalc.exe` is included that can be run on
 Intel x86 systems. It can be started from the File Explorer or the 
 DOS prompt as a command line program.
 
@@ -39,7 +39,7 @@ the libraries shipped with all versions of Windows since Windows 95.
   "no application framework".
 - add files to project from `files.txt` if necessary to recreate project
 - click on "Compiler ... Rebuild all" to rebuild
-- click on "Compiler ... Execute `winecalc`.exe Ctrl+F5" to run your build
+- click on "Compiler ... Execute `winecalc.exe` Ctrl+F5" to run your build
 
 - or you can build with the included Makefile by populating the
   environment variables, typing `cd \winecalc\lcc` and and typing
@@ -77,7 +77,7 @@ If you decide to make changes to `winecalc`, here are some notes.
   non-definition (code) statement, so define variables at the top of the
   current block
 
-- for cleaner code, I recommend you compile with both lcc and VC++ because
+- for cleaner code, I recommend you compile with both lcc and VC++ since
    sometimes one compiler displays a warning that the other compiler misses.
 
 - reasons why `winecalc` probably won't work on operating systems older than
