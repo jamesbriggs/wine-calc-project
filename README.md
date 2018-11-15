@@ -63,7 +63,7 @@ the libraries shipped with all versions of Windows since Windows 95.
 
 If you decide to make changes to `winecalc`, here are some notes.
 
-- lcc and VC++ can coexist because lcc creates its build files in `winecalc`\lcc.
+- lcc and VC++ can coexist because lcc creates its build files in `winecalc\lcc`.
 
 - `winecalc` is targeted for WINE, Windows95 and newer Microsoft operating 
   systems. Not supported are Windows 3.1 or older versions or Win32s.
